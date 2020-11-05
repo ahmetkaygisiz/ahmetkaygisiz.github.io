@@ -1,3 +1,2 @@
-# js-cart-setup
+# ahmetkaygisiz.github.io
 
-ADD ITEMS TO CART JAVASCRIPT PROJECT

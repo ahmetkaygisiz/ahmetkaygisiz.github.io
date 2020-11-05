@@ -16,7 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu"
       rel="stylesheet"
     />
-    <link href="css/scrolling-nav.css" rel="stylesheet" />
     <title>Ahmet Kaygisiz - CV</title>
     <style></style>
   </head>
@@ -25,11 +24,116 @@
     <!-- wrapper -->
     <div class="container-fluid">
       <div class="row">
+        <!-- NAVBAR -->
+        <div class="col-md-3 col3nav sticky-top">
+          <!-- sidebar -->
+          <nav
+            class="nav navbar navbar-expand-lg justify-content-center align-items-center sticky-top"
+          >
+            <!-- collapse button -->
+            <button
+              type="button"
+              class="navbar-toggler float-right"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="mr-2">< ahmetkaygisiz /></span>
+              <span class="toggler-icon">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+            <!-- end of collapse button -->
+            <!-- collapse area -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <!-- https://mdbootstrap.com/snippets/jquery/pjoter-2-0/743991#css-tab-view Tnx Piotr Obrebski -->
+              <ul class="timeline-light-v-2">
+                <li class="timeline-light-v-2-item">
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a
+                      href="#about"
+                      class="nav-link timeline-link timeline-link"
+                    >
+                      about
+                    </a>
+                  </div>
+                </li>
+                <li
+                  class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
+                >
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a
+                      href="#experience"
+                      class="nav-link timeline-link timeline-link"
+                      >experience</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
+                >
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a
+                      href="#education"
+                      class="nav-link timeline-link timeline-link"
+                      >education</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
+                >
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a
+                      href="#skills"
+                      class="nav-link timeline-link timeline-link"
+                      >skills</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
+                >
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a
+                      href="#languages"
+                      class="nav-link timeline-link timeline-link"
+                      >languages</a
+                    >
+                  </div>
+                </li>
+                <li
+                  class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
+                >
+                  <div class="timeline-light-v-2-item-tail"></div>
+                  <div class="timeline-light-v-2-item-head"></div>
+                  <div class="timeline-light-v-2-item-content">
+                    <a href="#contact" class="nav-link timeline-link"
+                      >contact</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- end of sidebar -->
+        </div>
+        <!-- end of NAVBAR -->
         <div class="col-md-9 col9section">
-          <section id="about">
+          <!-- section -->
+          <section id="about" class="section-about">
             <div class="container">
               <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-8 col-md-6 mx-auto my-5">
                   <h3>About</h3>
                   <p class="lead">
                     Hi, I am Ahmet Kaygısız. I am working on Java. I want to
@@ -45,14 +149,12 @@
               </div>
             </div>
           </section>
-
-          <section id="experience">
+          <!-- end of section -->
+          <!-- section -->
+          <section id="experience" class="section-lng">
             <div class="container">
               <div class="row">
-                <div
-                  class="col-md-8 mx-auto"
-                  style="padding: 5px; font-size: 12px"
-                >
+                <div class="col-md-8 mx-auto">
                   <h3>Experience</h3>
                   <p class="lead">
                     <b>Volthraed Bilgi Teknolojileri</b> - Junior Java Developer
@@ -107,8 +209,9 @@
               </div>
             </div>
           </section>
-
-          <section id="education">
+          <!-- end of section -->
+          <!-- section  -->
+          <section id="education" class="section-shrt">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -132,8 +235,9 @@
               </div>
             </div>
           </section>
-
-          <section id="skills">
+          <!-- end of section -->
+          <!-- section -->
+          <section id="skills" class="section-lng">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -263,8 +367,9 @@
               </div>
             </div>
           </section>
-
-          <section id="languages">
+          <!-- end of section -->
+          <!-- section -->
+          <section id="languages" class="section-shrt">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -279,8 +384,9 @@
               </div>
             </div>
           </section>
-
-          <section id="contact">
+          <!-- end of section -->
+          <!-- section -->
+          <section id="contact" class="section-shrt">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -353,6 +459,7 @@
               </div>
             </div>
           </section>
+          <!-- end of section -->
 
           <!-- Footer -->
           <footer class="py-5 bg-dark">
@@ -364,125 +471,10 @@
             <!-- /.container -->
           </footer>
         </div>
-        <!-- NAVBAR -->
-        <div class="col-md-3">
-          <div class="mybar">
-            <!-- sidebar -->
-            <nav
-              class="nav navbar navbar-expand-lg h-100 justify-content-center align-items-center"
-            >
-              <!-- collapse button -->
-              <button
-                type="button"
-                class="navbar-toggler float-right"
-                data-toggle="collapse"
-                data-target="#myNavbar"
-              >
-                <span class="mr-5">< ahmetkaygisiz /></span>
-                <span class="toggler-icon">
-                  <i class="fas fa-bars"></i>
-                </span>
-              </button>
-              <!-- end of collapse button -->
-              <!-- collapse area -->
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <!-- https://mdbootstrap.com/snippets/jquery/pjoter-2-0/743991#css-tab-view Tnx Piotr Obrebski -->
-                <ul class="timeline-light-v-2">
-                  <li class="timeline-light-v-2-item">
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#about"
-                        class="nav-link js-scroll-trigger timeline-link timeline-link"
-                      >
-                        about
-                      </a>
-                    </div>
-                  </li>
-                  <li
-                    class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
-                  >
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#experience"
-                        class="nav-link js-scroll-trigger timeline-link timeline-link"
-                        >experience</a
-                      >
-                    </div>
-                  </li>
-                  <li
-                    class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
-                  >
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#education"
-                        class="nav-link js-scroll-trigger timeline-link timeline-link"
-                        >education</a
-                      >
-                    </div>
-                  </li>
-                  <li
-                    class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
-                  >
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#skills"
-                        class="nav-link js-scroll-trigger timeline-link timeline-link"
-                        >skills</a
-                      >
-                    </div>
-                  </li>
-                  <li
-                    class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
-                  >
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#languages"
-                        class="nav-link js-scroll-trigger timeline-link timeline-link"
-                        >languages</a
-                      >
-                    </div>
-                  </li>
-                  <li
-                    class="timeline-light-v-2-item timeline-light-v-2-item-dashed"
-                  >
-                    <div class="timeline-light-v-2-item-tail"></div>
-                    <div class="timeline-light-v-2-item-head"></div>
-                    <div class="timeline-light-v-2-item-content">
-                      <a
-                        href="#contact"
-                        class="nav-link js-scroll-trigger timeline-link"
-                        >contact</a
-                      >
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <!-- end of collapse area -->
-            </nav>
-            <!-- end of sidebar -->
-          </div>
-        </div>
-        <!-- end of NAVBAR -->
       </div>
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
   </body>
 </html>

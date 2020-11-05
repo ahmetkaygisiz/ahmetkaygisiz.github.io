@@ -22,15 +22,36 @@ body {
   background: beige;
 }
 
-section {
-  height: 100vh;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+.col3nav {
+  background: rgb(245, 245, 220);
+  background: linear-gradient(
+    270deg,
+    rgba(245, 245, 220, 1) 0%,
+    rgba(194, 219, 207, 1) 100%
+  );
 }
 
-.mybar {
-  position: fixed;
-  height: 100%;
+.myNavbar {
+  padding-bottom: 5vh;
+}
+
+.section-about {
+  padding: 20vh 0 50vh 0;
+  height: 100vh 0;
+}
+
+.section-lng {
+  padding: 10vh 0 20vh 0;
+  height: 100vh 0;
+}
+
+.section-shrt {
+  padding: 30vh 0 30vh 0;
+  height: 100vh 0;
+}
+
+.custom-sidenav {
+  margin-top: 5vh;
 }
 
 .navbar-toggler {
@@ -135,11 +156,11 @@ li:first-child.timeline-light-v-2-item .timeline-light-v-2-item-tail {
 
 .timeline-link {
   color: var(--mainRed);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in;
   text-shadow: 2px 2px var(--mainBlack);
 }
 
 .timeline-link:hover {
-  color: var(--yellowOrange);
-  text-shadow: 2px 2px var(--mainGreen);
+  color: crimson;
+  text-shadow: 2px 2px lime;
 }
